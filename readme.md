@@ -25,4 +25,4 @@ cd pathPlanning-BFS/app
 nano main.cpp
 ```
 The "goalNode" is a global variable and can be found in the beginning whereas the startX and startY variables can be changed to set the start node X and Y coordinates.
-Also, the top left is considered (0,0). So please change accordingly.
+Also, the top left is considered (0,0) and bottom right is (250,150). So please change accordingly.
