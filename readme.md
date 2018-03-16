@@ -12,7 +12,7 @@ Run program: ./app/shell-app
 
 ## Output
 
-Sample output:  ![Sample Output](https://github.com/smahajan07/pathPlanning-BFS/blob/master/output/sampleOutput.ppm)
+Sample output:  ![Sample Output](https://github.com/smahajan07/pathPlanning-BFS/blob/master/output/sampleOutput.png)
 
 ## Important side Notes
 
