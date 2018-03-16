@@ -12,7 +12,7 @@ Run program: ./app/shell-app
 
 ## Output
 
-Sample output:
+Sample output:  ![Sample Output](https://github.com/smahajan07/pathPlanning-BFS/blob/master/output/sampleOutput.ppm)
 
 ## Important side Notes
 
@@ -21,7 +21,6 @@ If you wish to change the start node or goal node, you can do it by editing the 
 ```
 cd pathPlanning-BFS/app
 nano main.cpp
-
 ```
 The "goalNode" is a global variable and can be found in the beginning whereas the startX and startY variables can be changed to set the start node X and Y coordinates.
 Also, the top left is considered (0,0). So please change accordingly.
