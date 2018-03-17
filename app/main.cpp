@@ -284,11 +284,12 @@ bool checkPathNode(tuple<int, int> pos){
 void findPathBFS(tuple<int, int> nodePos){
 
     int flag=1;
-    for(int i=0;i<totalNodesCreated;++i){
+    for(int i=totalNodesCreated;i>0;--i){
         if(nodePos==nodesInfo[i].currNodePos){
             flag=0;
             int p=nodesInfo[i].parentNum;
             printNode(nodesInfo[--p].currNodePos);
+            ++p;
             for(int j=nodesInfo[i].cost;j>0;--j){
               printNode(nodesInfo[--p].currNodePos);
               p=nodesInfo[p].parentNum;
